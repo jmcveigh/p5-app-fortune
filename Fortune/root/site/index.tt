@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="/static/css/google-icon.css" rel="stylesheet">
+  <link href="/static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="brown darken-4">  
+  <header>
+       <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center">
+                  <h1 class="yellow-text" style='font-weight: 900;'>
+                      The <br>Crazy Hermit's<br>Fortunes!
+                  </h1>
+                </div>
+            </div>
+      </div>
+      <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <div class="row">
+                <div class="col s8 offset-s2">
+                <div class="card cyan darken-2">
+                  <div class="card-content white-text cyan darken-4">
+                    <span class="card-title"><strong style='font-weight: 800; text-decoration: blink;'>Runda-ta-te-doe : : : </strong></span>
+                      <p class="yellow-text flow-text" style='font-weight: 600;'>The bones in the bowl tell the hermit : </p>
+                      <p class="flow-text" style='font-weight: 400;'>[% fortune -%]</p>
+                    </div>
+                    <div class="card-action grey darken-3 right-align">
+                      <a href="/" class="btn">Moar!</a> 
+                    </div>
+                  </div>
+                </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">          
+          <p class="grey-text text-lighten-4">Made with &hearts; by <a href="mailto:jmcveigh@outlook.com">Jason McVeigh</a> of General Software Contracting.</p>
+          <p class="grey-text text-lighten-4">I &hearts; what I do and I hope you do too.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            This software is distributed with rights as under The Nethack General Public License. <br>
+            Commercial sale is licensed by General Software Contracting in Orillia, ON, CA. <br>
+            See Also : {{ <a href="http://opensource.org/licenses/NGPL" title="NGPL">http://opensource.org/licenses/NGPL</a> }} <br>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="/static/js/jquery-1.11.3.min.js"></script>
+  <script src="/static/js/materialize.js"></script>
+  <script src="/static/js/init.js"></script>
+
+  </body>
+</html>
